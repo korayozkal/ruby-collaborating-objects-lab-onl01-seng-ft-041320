@@ -21,8 +21,9 @@ def
 
   def self.all
     @@all
+    @Artist.all
   end
-  @@all
+  
 
 end 
   def self.find_or_create_by_name(name)
