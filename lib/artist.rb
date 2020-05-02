@@ -13,15 +13,13 @@ class Artist
   end
 
   def save
-    @@all << self
+    @@all<< self
   end
 
 def 
 
-
   def self.all
     @@all
-    @Artist.all
   end
   
 
