@@ -16,12 +16,15 @@ class Artist
     @@all << self
   end
 
+def 
+
 
   def self.all
     @@all
   end
+  @@all
 
-
+end 
   def self.find_or_create_by_name(name)
     self.find(name) ? self.find(name) : self.create(name)
   end
